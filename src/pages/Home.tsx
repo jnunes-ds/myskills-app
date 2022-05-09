@@ -53,7 +53,7 @@ export function Home(){
   }, [])
 
   return (    
-      <View style={styles.container}>      
+      <View testID='welcome' style={styles.container}>      
         
 
         <Text style={styles.title}>
